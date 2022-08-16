@@ -32,7 +32,8 @@
 	text-decoration: none;
 	color: #fff;
 }
-
+.onglets p a:hover{
+	color: black;}
 /*fin barre de naviguation*/
 
 /*page d'atterissage*/
@@ -78,7 +79,6 @@
 /*bio*/
 .main{
 	background-color: #A4E1C7;
-	top: 0px;
 }
 .main h2{
 	font-size: 45px;
@@ -92,11 +92,38 @@
 }
 .bio{
 	margin-top: 40px;
+	border-top: 10px blue inset;
+	border-left: 10px blue outset;
+	border-bottom: 10px blue groove;
+	margin-left: 35px;
+	margin-right: 10px;
+	box-shadow:8px 8px 6px black ;
+
 }
 .bio p{
 	font-weight: bold;
 	font-size: 30px;
+	background-color: #EEFEFC;
 }
 .float{
 	float: left;
+}
+/*fin bio*/
+
+/*discographie*/
+
+.main1{
+	background-color:#EEFEFC ;
+}
+
+
+.main1 h2{
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: underline;
+	
 }
